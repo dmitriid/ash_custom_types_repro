@@ -1,10 +1,10 @@
 import Config
 
 config :ash_custom_types_repro, AshCustomTypesRepro.Repo,
-  username: "getevents",
-  password: "getevents",
-  hostname: "172.25.224.1",
-  database: "getevents",
+  username: "events",
+  password: "events",
+  hostname: "localhost",
+  database: "events",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
