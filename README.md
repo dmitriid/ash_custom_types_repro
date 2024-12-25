@@ -15,6 +15,8 @@ This is implemented in `Events.Types.Status` and used in `Events.Event`.
 A sample function that uses the custom type is `Events.Event.all_events/2`.
 
 ```
+> iex -S mix
+
 # show all events
 > Events.Event.all_events([], [])
 
